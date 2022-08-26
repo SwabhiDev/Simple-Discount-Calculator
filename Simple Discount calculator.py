@@ -8,9 +8,9 @@ Created on Tue Aug 16 11:27:11 2022
 
 print("Hello there! Let's calculate your discount value shall we?")
 c=input("Enter the cost: ")
-d=int(c)
+d=float(c)
 e=input("Enter your discount value % : ")
-f=int(e)*0.01
+f=float(e)*0.01
 discount= f*d
 answer= d-discount
 print("Your discounted value is : ", discount)
